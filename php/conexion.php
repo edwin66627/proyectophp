@@ -1,5 +1,3 @@
-<!--Programa en PHP que me permite establecer la conexiòn a la base de datos-David Orozco-->
-
 <?php
 $host="localhost";
 $user="root";
