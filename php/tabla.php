@@ -1,6 +1,5 @@
 <!--Programa en PHP que me permite generar una grilla de las tablas existentes en la base de datos asi como los redireccionamientos
-para modificar o eliminar registros-David Orozco-->
-
+para modificar o eliminar registros-->
 <?php
 include "conexion.php";
 
