@@ -23,7 +23,6 @@
 <div class="row">
 <div class="col-md-12">
 		<h2>CONSULTAR REGISTROS</h2>
-
   <a data-toggle="modal" href="#myModal" class="btn btn-default">Agregar</a>
 <br><br>
   
@@ -38,7 +37,7 @@
 <form role="form" method="post" action="php/agregar.php">
     <div class="form-group">
    Seleccione tipo de Persona:
-    
+   
    <br>
    <input type="radio"id="tipo_per" name="tipo_per" onChange="mostrar(this.value)" value="Natural" >Natural
    <input type="radio"id="tipo_per" name="tipo_per" onChange="mostrar(this.value)" value="Juridica">Jurìdica
@@ -81,8 +80,48 @@
 </div>
 </form>
 </div>
- 
-      </div> 
+ <div class="modal-body">
+<form role="form" method="post" action="php/agregar.php">
+   
+         <div id="Jurìdica" class="element" style="display: none;">
+         <input type="radio"id="tipo_per" name="tipo_per" value="Jurìdica" checked="checked" hidden>
+  <div class="form-group">
+    <label for="name">Nombre</label>
+    <input type="text" class="form-control" name="name" required>
+  </div>
+      <div class="form-group">
+    <label for="lastname">Razòn Social</label>
+    <input type="text" class="form-control" name="lastname" required>
+  </div>    
+ <div class="form-group">
+    <label for="identif">Nit</label>
+    <input type="text" class="form-control" name="identif" required>
+  </div>
+  <div class="form-group">
+    <label for="address">Domicilio</label>
+    <input type="text" class="form-control" name="address" required>
+  </div>
+  <div class="form-group">
+    <label for="email">Email</label>
+    <input type="email" class="form-control" name="email" >
+  </div>
+   <div class="form-group">
+    <label for="phone">Telefono Fijo</label>
+    <input type="text" class="form-control" name="phone" >
+  </div>
+        <div class="form-group">
+    <label for="cell">Telefono Celular</label>
+    <input type="text" class="form-control" name="cell" >
+  </div> 
+ <div class="form-group">
+    <label for="email2">Email Alterno</label>
+    <input type="email2" class="form-control" name="email2" >
+  </div>
+  <button type="submit" class="btn btn-default">Agregar</button>
+         </div>
+</form>
+</div>
+      </div>
     </div>
   </div>
 <?php include "php/tabla.php"; ?>
