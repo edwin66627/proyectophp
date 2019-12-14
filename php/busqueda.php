@@ -21,7 +21,31 @@ $query = $con->query($sql1);
 	<th>Opciones</th>
 </thead>
 <?php while ($r=$query->fetch_array()):?>
+<tr>
+	<td><?php echo $r["id"];?></td>
+        <td><?php echo $r["nombre"];?></td>
+	<td><?php echo $r["apellido"]; ?></td>
+        <td><?php echo $r["identificacion"]; ?></td>
+         <td><?php echo $r["tipo_persona"];?></td>
+	<td><?php echo $r["email"]; ?></td>
+	<td><?php echo $r["direccion"]; ?></td>
+	<td><?php echo $r["telefono"]; ?></td>
+	<td style="width:150px;">
+		<a href="./editar.php?id=<?php echo $r["id"];?>" class="btn btn-sm btn-warning">Editar</a>
+		<a href="#" id="del-<?php echo $r["id"];?>" class="btn btn-sm btn-danger">Eliminar</a>
+		<script>
+		$("#del-"+<?php echo $request["id"];?>).click(function(e){
+			e.preventDefault();
+			p = confirm("Estas seguro?");
+			if(p){
+				window.location="./php/eliminar.php?id="+<?php echo $request["id"];?>;
 
+			}
+
+		});
+		</script>
+	</td>
+</tr>
 <?php endwhile;?>
 </table>
 <?php else:?>
