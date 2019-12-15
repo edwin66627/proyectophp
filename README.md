@@ -12,6 +12,6 @@ ESPECIFICACIONES DEL PROGRAMA
 
 DESCRIPCION TECNICA DEL CRM
 
-Herramientas Utilizadas: Entorno de Desarrollo NetBeans IDE 8.0.2: Herramienta utilizada para el manejo, despliegue, codificación, arreglo y eliminación del lenguaje de código utilizado para el aplicativo desarrollado para la empresa SOCIEDAD MAS. Lenguajes de códigos utilizados:HTML5,CSS3 JAVASCRIPT, PHP y librerías de Bootstrap y Jquery para la parte dinámica y visual del aplicativo.
+Herramientas Utilizadas: Entorno de Desarrollo Visual Studio code: Herramienta utilizada para el manejo, despliegue, codificación, arreglo y eliminación del lenguaje de código utilizado para el aplicativo desarrollado para la empresa SOCIEDAD MAS. Lenguajes de códigos utilizados:HTML5,CSS3 JAVASCRIPT, PHP y librerías de Bootstrap y Jquery para la parte dinámica y visual del aplicativo.
 
 GESTOR DE BASE DE DATOS MYSQL: Gestor de base de datos en mysql utilizado para la creación de bases de datos y de tablas que se utilizaron para la conexión e integración con el lenguaje de código PHP. Servidor de base de datos
