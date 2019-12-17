@@ -2,12 +2,13 @@ branches:
     only:
         - master
 language: php
+jobs:
+    include:
+      - php: '5.2'
+        dist: precise
+      - php: '5.3'
+        dist: precise
 php:
-    - '5.2'
-    - '5.3'
-    - '5.4'
-    - '5.5'
-    - '5.6'
     - '7.0'
     - hhvm
 services:
@@ -18,7 +19,6 @@ install:
     - composer install
 allow_failures:
     - php: '5.3'
-    - php: '5.6'
     - php: '7.0'
     - php: hhvm    
 script: phpunit --configuration phpunit.xml --coverage-txt
