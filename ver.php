@@ -53,11 +53,11 @@
     <input type="text" class="form-control" name="lastname" required>
   </div>
          <div class="form-group">
-    <label for="identif">Identificaciòn</label>
+    <label for="identif">Identificacion</label>
     <input type="text" class="form-control" name="identif" required>
   </div>
   <div class="form-group">
-    <label for="address">Domicilio</label>
+    <label for="address">Direccion</label>
     <input type="text" class="form-control" name="address" required>
   </div>
   <div class="form-group">
