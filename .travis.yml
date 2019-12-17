@@ -13,8 +13,6 @@ php:
     - hhvm
 services:
     - docker    
-before-install:
-    - composer self-update
 install:
     - composer install
 allow_failures:
