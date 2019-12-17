@@ -6,11 +6,11 @@ if(!isset($_SESSION["user_id"]) || $_SESSION["user_id"]==null){
 ?>
 <html>
 	<head>
-		<title>.: HOME :.</title>
+		<title>Inicio</title>
 		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 	</head>
         <body
-<h2>Bienvenido,<span><?php echo $_SESSION['user_id'];?> </span></h2>
-<a href="php/cerrarsesion.php"class="btn btn-default" align="right">Cerrar sesiòn</a>
+<h2>Bienvenido, <span><?php echo $_SESSION['user_id'];?> </span></h2>
+<a href="php/cerrarsesion.php"class="btn btn-default" align="right">Cerrar sesion</a>
 	</body>
 </html>
