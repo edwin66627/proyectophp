@@ -10,8 +10,7 @@ jobs:
         dist: precise
 services:
     - docker    
-install:
-    - composer install
+
 allow_failures:
     - php: '5.3'
 
