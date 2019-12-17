@@ -1,7 +1,7 @@
 <?php session_start(); ?>
 <html>
 	<head>
-		<title>Inicio de sesiòn</title>
+		<title>Inicio de sesion</title>
 		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 	</head>
 	<body>
@@ -21,7 +21,7 @@
 		  </div>
 
 		  <button type="submit" class="btn btn-default">Acceder</button>
-                  <p class="regtext">No estas registrado? <a href="register.php" class="btn btn-default">Registrate Aquì­</a></p>
+                  <p class="regtext">No estas registrado? <a href="register.php" class="btn btn-default">Registrarse­</a></p>
 		</form>
 		
 </div>
