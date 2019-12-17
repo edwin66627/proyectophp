@@ -15,7 +15,7 @@
 
   <div class="collapse navbar-collapse navbar-ex1-collapse">
     <ul class="nav navbar-nav">
-      <li><a class=navbar-brand href="ver.php">VER</a></li>
+      <li><a class=navbar-brand href="ver.php">Ver</a></li>
     </ul>
 <form class="navbar-form navbar-left" role="search" action="./buscar.php">
       <div class="form-group">
